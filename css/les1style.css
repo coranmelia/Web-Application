@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  color:brown;
+  font-family: Braggadocio, Helvetica;
+}
+
+h2 {
+	font-family: Arial Black, sans-serif;
+	color:white;
+	width:160px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	border-radius: 1px 25px; 
+	background: #938785;
+}
+
+p{
+  width: 95%;
+  height: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  border-radius: 8px;
+  font-family: fantasy, Arial, sans-serif;
+	
+}
+
+footer{
+	clear:both;
+}
+
+div > div{
+	padding: 10px 10px 10px 10px;	
+}
+
+.row {
+  width: 90%;
+}
+
+/* small device */
+@media (max-width: 767px){
+	.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12{
+		float: left;
+	}
+	#bg{ width: 70%; }
+	.s1{ width: 8.33%; }
+	.s2{ width: 16.66%; }
+	.s3{ width: 25%; }
+	.s4{ width: 33.33%; }
+	.s5{ width: 41.66%; }
+	.s6{ width: 50%; }
+	.s7{ width: 58.33%; }
+	.s8{ width: 66.66%; }
+	.s9{ width: 75%; }
+	.s10{ width: 83.33%; }
+	.s11{ width: 91.66%; }
+	.s12{ width: 100%; }
+}
+/* medium device */
+@media (min-width: 768px) and (max-width: 991px){
+	.m1, .m2, .m3, .m4, .m5, .m6, .m7, .m8, .m9, .m10, .m11, .m12{
+		float: left;
+	}
+	#bg{
+		width: 80%;	
+	}
+	.m1{ width: 8.33%; }
+	.m2{ width: 16.66%; }
+	.m3{ width: 25%; }
+	.m4{ width: 33.33%; }
+	.m5{ width: 41.66%; }
+	.m6{ width: 50%; }
+	.m7{ width: 58.33%; }
+	.m8{ width: 66.66%; }
+	.m9{ width: 75%; }
+	.m10{ width: 83.33%; }
+	.m11{ width: 91.66%; }
+	.m12{ width: 100%; }
+}
+/* large device */
+@media (min-width: 992px){
+	.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10, .l11, .l12{
+		float: left;
+	}
+	#bg{
+		width: 90%;	
+	}
+	.l1{ width: 8.33%; }
+	.l2{ width: 16.66%; }
+	.l3{ width: 25%; }
+	.l4{ width: 33.33%; }
+	.l5{ width: 41.66%; }
+	.l6{ width: 50%; }
+	.l7{ width: 58.33%; }
+	.l8{ width: 66.66%; }
+	.l9{ width: 75%; }
+	.l10{ width: 83.33%; }
+	.l11{ width: 91.66%; }
+	.l12{ width: 100%; }
+}
+
+#bg{
+	height: 500px;	
+	color: white;
+	font-family: sans-serif;
+	background:url("pic/1.gif") lightgray no-repeat;
+}
+
+div > section{
+	clear: both;
+}
+
+#p1{
+	background: #FFD7D6;
+}
+
+#p2{
+	background: #D6FDFF;
+}
+
+#p3{
+	background: #D7D6FF;
+}
+
+#p4{
+	background: #FFEBD6;
+}
+
+#p5{
+	background: #FDFFCC;
+}
+#p6{
+	background: #EBD6FF;
+}
+
+div:hover section:nth-child(6) {  
+  font-size: 24px;
+  color: red;
+}
+
+.xx{
+	clear:left;
+}
+
+#ss{
+	position: absolute;
+	left:150px;
+	width: 190px; 
+	padding: 10px;
+	background: #EFFF80;
+}
+
+.s3{
+	position: relative;
+	top:4px;
+	left:5px;
+	width:20px;
+	background: #AAFFE0; 
+}
