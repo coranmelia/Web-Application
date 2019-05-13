@@ -21,7 +21,7 @@ h2 {
 }
 
 
-div#row{
+div#container{
 	position: relative;
 	width: 100%;
 }
@@ -42,6 +42,7 @@ p{
 @media (max-width: 767px){
 	.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12{
 		float: left;
+		position: relative;
 	}
 	.s1{ width: 8.33%; }
 	.s2{ width: 16.66%; }
@@ -74,6 +75,9 @@ p{
 	.m10{ width: 83.33%; }
 	.m11{ width: 91.66%; }
 	.m12{ width: 100%; }
+	#special{
+		width: 100%
+	}
 }
 /* large device */
 @media (min-width: 992px){
