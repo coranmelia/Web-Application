@@ -31,7 +31,7 @@ div > section > section{
 	height: 300px;
 	margin: 10px 10px 10px 10px;
 	overflow: scroll;	
-	border: 1px solid lightgrey;
+	border: 1px solid black;
 }
 
 p{
@@ -114,5 +114,15 @@ p{
 	background: #D7D6FF;
 }
 
+#h11{
+	background: #FFEBD6;
+}
 
+#h12{
+	background: #C6EDEF;
+}
+
+#h13{
+	background: #EBD6FF;
+}
 
