@@ -1,0 +1,284 @@
+/*
+font-family: 'Bungee', cursive;
+font-family: 'Monoton', cursive;
+*/
+
+/*
+color: #A8DCC8;
+*/
+
+/* body color */
+body{
+	font-size: 16px;
+	background: #FFD2C3;
+}
+
+.navbar-header{
+	width: 100%;
+}
+
+
+/* navbar basics */
+.navbar-brand h1 {
+	font-family: 'Monoton', cursive;
+	color: #A8DCC8;
+	font-size: 3em;
+	margin-top: 0px;
+	line-height: .85;
+	/*text-shadow: 5px 2px 2px #222;*/
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p{ /* designer color */
+	color:#A0B0A0;
+	text-transform: uppercase;
+	font-size: 1.1em;
+
+}
+
+.navbar-brand > img{
+	display: block;
+}
+
+.navbar-brand p span { /* center designer */
+	vertical-align: middle;
+}
+
+/* toggler basics */
+.navbar-toggler{	
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 5px;
+	background-color: transparent;
+	border: transparent;
+	background-image: none; 
+	border-radius: 4px;	
+}
+
+.navbar-toggler:focus{
+	outline: 0px;
+}
+
+
+.navbar-toggler .navbar-toggler-icon + .navbar-toggler-icon{
+	margin-top: 4px;
+}
+
+@media (min-width: 768px){
+	.navbar-toggler{
+		display: none;
+	}
+}
+
+/* navbar toggler */
+#nav-list{
+	margin-top: 0px;
+}
+
+.nav-item a{
+	font-size: 1.5em;
+}
+
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	font-size: 1.5em;
+}
+
+.container button.navbar-toggler{
+	border: 1px solid #A0A0A0;
+}
+
+
+/* logo and header */
+#header-nav{
+	background: #FFFAC3;
+	border-radius: 10px;
+	border:0;
+}
+
+#logo-img{
+	background: url('pic/3.png') no-repeat;
+	width: 140px;
+	height: 140px;
+	margin: 5px 5px 5px 0px;
+}
+
+/* blocks and tiles */
+#b1, #b2, #b3, #b4, #b5, #b6{
+	height: 250px;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover{
+	box-shadow: 0 1px 5px 2px #cccccc;
+}
+
+#b1{
+	background: url('pic/oil_painting.jpg') no-repeat;
+	background-position: center;
+}
+
+#b1 span, #b2 span, #b3 span, #b4 span, #b5 span, #b6 span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000000; 
+	color: #FFFFFF;
+	opacity: 0.55;
+	border-radius: 10px;
+}
+
+/* Footer */
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #454545;
+	color: white;
+	border-top: 0; 
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours, #address{
+	line-height: 1.8;
+}
+
+/* phone */
+/*
+#phone{
+	text-align: center;
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+#phone a{
+
+	padding-bottom: 0; 
+}
+*/
+
+/* portfolio tile style */
+.category-tile{
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+	width: 170px;
+	height: 170px;
+	margin: 0 auto 15px;
+}
+
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000000;
+	color: #FFFFFF; 
+	opacity: 0.55;
+}
+
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+#categories-title + div {
+	margin-bottom: 50px;
+}
+
+/* extra large device only */
+@media (min-width: 1200px){
+	.container .jumbotron{
+		background: url('pic/D2000.jpg') no-repeat;
+		height: 740px;
+		padding: 0px;
+		box-shadow: 0 0 50px #3F0C1F;
+	}
+}
+/* large device only */
+@media (min-width: 992px) and (max-width: 1199px){
+	.container .jumbotron{
+		background: url('pic/D1200.jpg') no-repeat;
+		padding: 0px;
+		height: 620px;
+		box-shadow: 0 0 50px #3F0C1F;
+	}
+}
+/* medium device only */
+@media (min-width: 768px) and (max-width: 991px){
+	.container .jumbotron{
+		background: url('pic/D992.jpg') no-repeat;
+		padding: 0px;
+		height: 460px;
+		box-shadow: 0 0 50px #3F0C1F;
+	}
+}
+/* xsmall device only */
+@media (max-width: 767px) and (min-width: 576px){
+	.container .jumbotron{
+		background: url('pic/D768.jpg') no-repeat;
+		padding: 0px;
+		height: 340px;
+		box-shadow: 0 0 50px #3F0C1F;
+	}
+}
+/* xsmall device only */
+@media (max-width: 575px){
+	.container .jumbotron{
+		padding: 0px;
+		box-shadow: 0 0 50px #3F0C1F;
+	}
+	
+	#b1, #b2, #b3, #b4, #b5, #b6{
+		width: 350px; 
+    	margin: 0 auto 15px;
+    }
+
+/* footer */
+.panel-footer section{
+    	margin-bottom: 30px;
+    	text-align: center;
+    }
+
+    .panel-footer section hr {
+    	width:50%;
+    }
+}
+
+@media (max-width: 393px){
+	#b1, #b2, #b3, #b4, #b5, #b6{
+		width: 280px; 
+    	margin: 0 auto 15px;
+    }
+
+    .col-xxs-12{
+    	 -ms-flex: 0 0 100%;
+  		flex: 0 0 100%;
+  		max-width: 100%;
+    	float: left;
+    	position: relative;
+    	min-height: 1px;
+    	width: 100%;
+    	padding-right:15px;
+    	padding-left: 15px;
+    }
+}
