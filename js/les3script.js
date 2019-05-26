@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 var dc = {};
 
-var homeHtml = "html-test/snippet/home_snippet.html";
+var homeHtml = "../snippet/home_snippet.html";
 var paintingHtml = "../snippet/gallery.html";
 
 // Convenience function for inserting innerHTML for 'select'
@@ -34,7 +34,7 @@ var insertHtml = function (selector, html) {
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
-  html += "<img src='html-test/css/pic/ajax-loader.gif'></div>";
+  html += "<img src='../css/pic/ajax-loader.gif'></div>";
   insertHtml(selector, html);
 };
 
