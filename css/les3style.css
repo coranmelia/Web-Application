@@ -1,41 +1,57 @@
 /*
+
+Fonts
+
 font-family: 'Bungee', cursive;
 font-family: 'Monoton', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Amatic SC', cursive;
+
 */
 
 /*
-color: #A8DCC8;
+
+Color Scheme
+
+pink: #FFB5BB; // or #FFD2C3;
+yellow: #FFE691; // or #FFFAC8;
+blue: #95d5ee; // or #99D8EE; 
+indigo: #55566F;
+
 */
 
-/* body color */
+/* 
+	body color 
+*/
 body{
 	font-size: 16px;
-	background: #FFD2C3;
+	background: #FFD8C8;
 }
 
 .navbar-header{
 	width: 100%;
 }
 
-
 /* navbar basics */
-.navbar-brand h1 {
+.navbar-brand h1 { /* Name */
 	font-family: 'Monoton', cursive;
-	color: #A8DCC8;
+	color: #99D8EE;
 	font-size: 3em;
 	margin-top: 0px;
 	line-height: .85;
-	/*text-shadow: 5px 2px 2px #222;*/
+	/* text-shadow: 2px 2px 2px #222; */
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
 }
 
-.navbar-brand p{ /* designer color */
-	color:#A0B0A0;
-	text-transform: uppercase;
-	font-size: 1.1em;
+.navbar-brand p{ /* portfolio:2014-2019 color */
+	color:#55566f;
+	font-family: 'Shadows Into Light';
+	/* text-transform: uppercase; */
+	font-size: 1.2em;
 
 }
 
@@ -43,11 +59,13 @@ body{
 	display: block;
 }
 
-.navbar-brand p span { /* center designer */
+.navbar-brand p span { /* center portfolio */
 	vertical-align: middle;
 }
 
-/* toggler basics */
+/* 
+	toggler basics 
+*/
 .navbar-toggler{	
 	float: right;
 	margin-top: 8px;
@@ -73,9 +91,18 @@ body{
 	}
 }
 
-/* navbar toggler */
+/* 
+	navbar toggler 
+*/
+
 #nav-list{
 	margin-top: 0px;
+	font-family:  'Amatic SC';
+}
+
+
+nav#header-nav .nav-item a{ /* font color overwrites navbar-light */
+	color: #55566F;
 }
 
 .nav-item a{
@@ -95,9 +122,11 @@ body{
 }
 
 
-/* logo and header */
+/* 
+	logo and header 
+*/
 #header-nav{
-	background: #FFFAC3;
+	background: #FFFAC8;  /* #FFE691; */
 	border-radius: 10px;
 	border:0;
 }
@@ -109,7 +138,9 @@ body{
 	margin: 5px 5px 5px 0px;
 }
 
-/* blocks and tiles */
+/* 
+	blocks and tiles 
+*/
 #b1, #b2, #b3, #b4, #b5, #b6{
 	height: 250px;
 	width:100%;
@@ -134,7 +165,10 @@ body{
 	right: 0;
 	width: 100%;
 	text-align: center;
-	font-size: 1.6em;
+	font-family: 'Righteous';
+	font-size: 1.5em;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	text-transform: uppercase;
 	background-color: #000000; 
 	color: #FFFFFF;
