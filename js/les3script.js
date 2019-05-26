@@ -35,7 +35,7 @@ var insertHtml = function (selector, html) {
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
-  html += "<img src='../css/pic/ajax-loader.gif'></div>";
+  html += "<img src='../css/pic/ajax-loader-2.gif'></div>";
   insertHtml(selector, html);
 };
 
