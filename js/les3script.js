@@ -22,6 +22,7 @@ $(document).ready(function(){
 
 var dc = {};
 
+// the Url's
 var homeHtml = "../snippet/home_snippet.html";
 var paintingHtml = "../snippet/gallery.html";
 
