@@ -23,8 +23,8 @@ $(document).ready(function(){
 var dc = {};
 
 // the Url's
-var homeHtml = "../snippet/home_snippet.html";
-var paintingHtml = "../snippet/gallery.html";
+var homeHtml = "/../snippet/home_snippet.html";
+var paintingHtml = "/../snippet/gallery.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
@@ -35,7 +35,7 @@ var insertHtml = function (selector, html) {
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
-  html += "<img src='../css/pic/ajax-loader-2.gif'></div>";
+  html += "<img src='/../css/pic/ajax-loader-2.gif'></div>";
   insertHtml(selector, html);
 };
 
