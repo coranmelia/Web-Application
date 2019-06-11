@@ -54,6 +54,16 @@ document.addEventListener("DOMContentLoaded",
 		  false);
 });
 
+dc.loadHome = function (){
+	showLoading("#main-content");
+	$ajaxUtils.sendGetRequest(
+		homeHtml,
+		function (responseText) {
+		    document.querySelector("#main-content").innerHTML = responseText;
+		  },
+		false);
+};
+
 dc.loadPainting = function (){
 	showLoading("#main-content");
 	$ajaxUtils.sendGetRequest(
