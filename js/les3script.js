@@ -22,8 +22,8 @@ $(document).ready(function(){
 var dc = {};
 
 // the Url's
-var homeHtml = "/../html-test/snippet/home_snippet.html";
-var studioHtml = "/../html-test/snippet/gallery.html";
+var homeHtml = "/../Web-Application/snippet/home_snippet.html";
+var studioHtml = "/../Web-Application/snippet/gallery.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
