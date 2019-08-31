@@ -1,6 +1,12 @@
 ### Web Applicaton: Personal Website 
 
-Four main pages are presented in this packet: homepage, gallery, portfolio, resume with some sites for practice purpose 
+This site is still under development and expect to finish everything in Sep. 2019. 
+
+Four main web pages are presented in this packet: homepage, gallery, portfolio, resume 
+
+Pages implemented with Bootstrap and JQuery, loaded with with Ajax.
+
+This web app is remodeled from my old project where data were served on MySQL. Since my website does not have tons of data I've taken down the backend. 
 
 ### Markdown
 
